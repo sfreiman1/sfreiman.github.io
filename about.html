@@ -1,92 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <!-- Social Media Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-  <title>Business Casual - Start Bootstrap Theme</title>
+    <!-- Main CSS -->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/business-casual.min.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <h1 class="site-heading text-center text-white d-none d-lg-block">
-    <span class="site-heading-upper text-primary mb-3">A Free Bootstrap 4 Business Theme</span>
-    <span class="site-heading-lower">Business Casual</span>
-  </h1>
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="index.html">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item active px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
-          </li>
-          <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
-          </li>
-          <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="store.html">Store</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <section class="page-section about-heading">
-    <div class="container">
-      <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt="">
-      <div class="about-heading-content">
-        <div class="row">
-          <div class="col-xl-9 col-lg-10 mx-auto">
-            <div class="bg-faded rounded p-5">
-              <h2 class="section-heading mb-4">
-                <span class="section-heading-upper">Strong Coffee, Strong Roots</span>
-                <span class="section-heading-lower">About Our Cafe</span>
-              </h2>
-              <p>Founded in 1987 by the Hernandez brothers, our establishment has been serving up rich coffee sourced from artisan farmers in various regions of South and Central America. We are dedicated to travelling the world, finding the best coffee, and bringing back to you here in our cafe.</p>
-              <p class="mb-0">We guarantee that you will fall in <em>lust</em> with our decadent blends the moment you walk inside until you finish your last sip. Join us for your daily routine, an outing with friends, or simply just to enjoy some alone time.</p>
-            </div>
-          </div>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="images/sf-logo.jpg" alt="" width="100" height="100"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://macprovideo.com/about/trainer/scottfreiman"
+                target="_blank"
+                >Videos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.beatleslectures.com/writing-2"
+                target="_blank"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Projects
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://github.com/sfreiman1/Pac-Man-Exercise"
+                    target="_blank"
+                    >Pac-Men Invasion</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://github.com/sfreiman1/Eye-Exercise"
+                    target="_blank"
+                    >The Eyes Have It</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Boston Bus Tracker</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
+    </nav>
 
-  <footer class="footer text-faded text-center py-5">
+    <!-- Bio -->
+    
     <div class="container">
-      <p class="m-0 small">Copyright &copy; Your Website 2020</p>
+      <div style="text-align: center">
+        <img
+          src="images/Scott Freiman Picture.jpg"
+          style="height: 50%; width: 50%; object-fit: contain"
+          alt="Scott Freiman Picture"
+        />
+      </div>
+      <div>
+        <br />
+        <h1 style="text-align: center">Scott Freiman</h1>
+        <br />
+        <h4>
+          <p>
+            It’s not every day that you meet the CEO of a public company who is
+            also a world-renowned Beatleologist. The creator of software that
+            transformed two industries and the creator and presenter of nine
+            acclaimed documentary films. A seasoned executive who holds multiple
+            patents - as comfortable with investors as with sales and product
+            teams – and a former Yale professor.
+          </p>
+          <p>
+            It's not every day that you meet <strong>Scott Freiman</strong>.
+          </p>
+          <p>
+            Scott Freiman is a technology and e-business savvy senior executive
+            and entrepreneur with extensive expertise in strategy, marketing,
+            technology, and operations. He may be the only person to have sold
+            out Carnegie Hall and been a Finalist for Ernst and Young’s
+            Entrepreneur of the Year.
+          </p>
+          <p>
+            Mr. Freiman was co-founder and CEO of Credit Management Solutions,
+            Inc. (formerly NASDAQ:CMSS), a publicly traded financial software
+            and services company and one of the earliest e-business successes.
+            Mr. Freiman co-founded Credit Management Solutions in 1987 shortly
+            after graduating from Yale University with a B.S. in Computer
+            Science and Music.
+          </p>
+          <p>
+            After selling CMSI, Mr. Freiman became a full-time composer and
+            producer. Mr. Freiman composed music for more than ten films, and
+            also acted as sound editor and mixer on many films. Mr. Freiman also
+            built Second Act Studio, a state-of-the-art music and video studio
+            for composition, recording, and production.
+          </p>
+          <p>
+            In 2009, Mr. Freiman created Deconstructing the Beatles
+            (beatleslectures.com), a series of multimedia presentations about
+            the composition and production techniques of the Beatles. Mr.
+            Freiman has presented his lectures to sold-out audiences at theaters
+            nationwide and has spoken about the Beatles at colleges,
+            universities, and corporations, such as Pixar, Google, and Facebook.
+            In the Fall of 2012, Mr. Freiman taught a semester course on “The
+            Beatles In The Studio” at Yale University. Mr. Freiman’s insights
+            into the music of the Beatles can be found in the book All the
+            Songs: The Story Behind Every Beatles Release published in October
+            2013 by Black Dog and Leventhal. Mr. Freiman is featured in eleven
+            Deconstructing the Beatles films currently showing in theatres
+            throughout North America and available on DVD and streaming.
+          </p>
+          <p>
+            In 2013, Mr. Freiman co-founded Qwire Inc. The company’s software is
+            being used to streamline music tracking and rights management for
+            television series, films and other media. A strong advocate for
+            music education for children, Mr. Freiman has taught composing and
+            music technology to children and adults and created over 30 video
+            training courses for AskAudio.com.
+          </p>
+        </h4>
+      </div>
     </div>
-  </footer>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Social Media Links -->
 
-</body>
+    <div class="social">
+      <a
+        href="https://www.facebook.com/scott.freiman.1"
+        target="_blank"
+        class="fa fa-facebook"
+      ></a>
+      <a
+        href="https://twitter.com/BeatlesLectures"
+        target="_blank"
+        class="fa fa-twitter"
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/scottfreiman/"
+        target="_blank"
+        class="fa fa-linkedin"
+      ></a>
+    </div>
 
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
