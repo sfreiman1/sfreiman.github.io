@@ -115,6 +115,22 @@ h6, .h6 {
     font-weight:bold;
 }
 
+/* Grid for Video Page */
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: 800px 800px;
+  background-color: #2F170FE6;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 10px;
+  text-align: center;
+  border: solid 1px;
+  color:beige;
+}
+
 /* Social Media Icons */
 
 .fa {
